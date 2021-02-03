@@ -9,12 +9,12 @@ import (
 	"google.golang.org/appengine"
 
 	"github.com/go-kit/kit/log"
-	"github.com/goadesign/goa"
-	"github.com/goadesign/goa-cellar/app"
-	"github.com/goadesign/goa-cellar/controllers"
-	"github.com/goadesign/goa-cellar/store"
-	"github.com/goadesign/goa/logging/kit"
-	"github.com/goadesign/goa/middleware"
+	"github.com/Gys/goa"
+	"github.com/Gys/goa-cellar/app"
+	"github.com/Gys/goa-cellar/controllers"
+	"github.com/Gys/goa-cellar/store"
+	"github.com/Gys/goa/logging/kit"
+	"github.com/Gys/goa/middleware"
 )
 
 const (

@@ -4,8 +4,8 @@
 //
 // Command:
 // $ goagen
-// --design=github.com/goadesign/goa-cellar/design
-// --out=$(GOPATH)/src/github.com/goadesign/goa-cellar
+// --design=github.com/Gys/goa-cellar/design
+// --out=$(GOPATH)/src/github.com/Gys/goa-cellar
 // --version=v1.3.1
 
 package cli
@@ -14,10 +14,10 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/goadesign/goa"
-	"github.com/goadesign/goa-cellar/client"
-	goaclient "github.com/goadesign/goa/client"
-	uuid "github.com/goadesign/goa/uuid"
+	"github.com/Gys/goa"
+	"github.com/Gys/goa-cellar/client"
+	goaclient "github.com/Gys/goa/client"
+	uuid "github.com/Gys/goa/uuid"
 	"github.com/spf13/cobra"
 	"log"
 	"os"

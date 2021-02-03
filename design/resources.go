@@ -1,8 +1,8 @@
 package design
 
 import (
-	. "github.com/goadesign/goa/design"
-	. "github.com/goadesign/goa/design/apidsl"
+	. "github.com/Gys/goa/design"
+	. "github.com/Gys/goa/design/apidsl"
 )
 
 var _ = Resource("account", func() {

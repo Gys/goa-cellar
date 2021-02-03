@@ -14,9 +14,9 @@
 # - all is the default target, it runs all the targets in the order above.
 #
 DEPEND=	bitbucket.org/pkg/inflect \
-	github.com/goadesign/goa \
-	github.com/goadesign/goa/goagen \
-	github.com/goadesign/goa/logging/logrus \
+	github.com/Gys/goa \
+	github.com/Gys/goa/goagen \
+	github.com/Gys/goa/logging/logrus \
 	github.com/sirupsen/logrus \
 	gopkg.in/yaml.v2 \
 	golang.org/x/tools/cmd/goimports
@@ -38,11 +38,11 @@ clean:
 	@rm -f cellar
 
 generate:
-	@goagen app     -d github.com/goadesign/goa-cellar/design
-	@goagen swagger -d github.com/goadesign/goa-cellar/design -o public
-	@goagen schema  -d github.com/goadesign/goa-cellar/design -o public
-	@goagen client  -d github.com/goadesign/goa-cellar/design
-	@goagen js      -d github.com/goadesign/goa-cellar/design -o public
+	@goagen app     -d github.com/Gys/goa-cellar/design
+	@goagen swagger -d github.com/Gys/goa-cellar/design -o public
+	@goagen schema  -d github.com/Gys/goa-cellar/design -o public
+	@goagen client  -d github.com/Gys/goa-cellar/design
+	@goagen js      -d github.com/Gys/goa-cellar/design -o public
 
 build:
 	@go build -o cellar

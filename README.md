@@ -79,7 +79,7 @@ Vary: Origin
 Assuming a working Go setup:
 
 ```bash
-go install github.com/goadesign/goa-cellar
+go install github.com/Gys/goa-cellar
 goa-cellar
 ```
 
@@ -136,4 +136,4 @@ actual controller functions. The test helpers retrieve the written responses, de
 validate the generated data structures (against the validations written in the design) and
 make them available to the tests. This makes it simple to use table driven tests that setup various
 kinds of inputs and validate the resulting responses. See the file
-[account_test.go](https://github.com/goadesign/goa-cellar/blob/master/controllers/account_test.go).
+[account_test.go](https://github.com/Gys/goa-cellar/blob/master/controllers/account_test.go).

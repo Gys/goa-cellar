@@ -428,7 +428,7 @@ info:
   description: A basic example of a CRUD API implemented with goa
   license:
     name: MIT
-    url: https://github.com/goadesign/goa/blob/master/LICENSE
+    url: https://github.com/Gys/goa/blob/master/LICENSE
   title: The virtual wine cellar
   version: ""
 paths:

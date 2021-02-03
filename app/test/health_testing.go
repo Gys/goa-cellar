@@ -4,8 +4,8 @@
 //
 // Command:
 // $ goagen
-// --design=github.com/goadesign/goa-cellar/design
-// --out=$(GOPATH)/src/github.com/goadesign/goa-cellar
+// --design=github.com/Gys/goa-cellar/design
+// --out=$(GOPATH)/src/github.com/Gys/goa-cellar
 // --version=v1.3.1
 
 package test
@@ -14,9 +14,9 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/goadesign/goa"
-	"github.com/goadesign/goa-cellar/app"
-	"github.com/goadesign/goa/goatest"
+	"github.com/Gys/goa"
+	"github.com/Gys/goa-cellar/app"
+	"github.com/Gys/goa/goatest"
 	"io"
 	"log"
 	"net/http"

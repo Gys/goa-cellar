@@ -4,14 +4,14 @@
 //
 // Command:
 // $ goagen
-// --design=github.com/goadesign/goa-cellar/design
-// --out=$(GOPATH)/src/github.com/goadesign/goa-cellar
+// --design=github.com/Gys/goa-cellar/design
+// --out=$(GOPATH)/src/github.com/Gys/goa-cellar
 // --version=v1.3.1
 
 package client
 
 import (
-	"github.com/goadesign/goa"
+	"github.com/Gys/goa"
 	"unicode/utf8"
 )
 

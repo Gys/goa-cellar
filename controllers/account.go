@@ -3,9 +3,9 @@ package controllers
 import (
 	"time"
 
-	"github.com/goadesign/goa"
-	"github.com/goadesign/goa-cellar/app"
-	"github.com/goadesign/goa-cellar/store"
+	"github.com/Gys/goa"
+	"github.com/Gys/goa-cellar/app"
+	"github.com/Gys/goa-cellar/store"
 )
 
 // ToAccountMedia builds an account media type from an account model.

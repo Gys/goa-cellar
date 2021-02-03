@@ -4,15 +4,15 @@
 //
 // Command:
 // $ goagen
-// --design=github.com/goadesign/goa-cellar/design
-// --out=$(GOPATH)/src/github.com/goadesign/goa-cellar
+// --design=github.com/Gys/goa-cellar/design
+// --out=$(GOPATH)/src/github.com/Gys/goa-cellar
 // --version=v1.3.1
 
 package client
 
 import (
-	"github.com/goadesign/goa"
-	goaclient "github.com/goadesign/goa/client"
+	"github.com/Gys/goa"
+	goaclient "github.com/Gys/goa/client"
 )
 
 // Client is the cellar service client.

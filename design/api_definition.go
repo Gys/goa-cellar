@@ -1,8 +1,8 @@
 package design
 
 import (
-	. "github.com/goadesign/goa/design"
-	. "github.com/goadesign/goa/design/apidsl"
+	. "github.com/Gys/goa/design"
+	. "github.com/Gys/goa/design/apidsl"
 )
 
 // This is the cellar application API design used by goa to generate
@@ -17,7 +17,7 @@ var _ = API("cellar", func() {
 	})
 	License(func() {
 		Name("MIT")
-		URL("https://github.com/goadesign/goa/blob/master/LICENSE")
+		URL("https://github.com/Gys/goa/blob/master/LICENSE")
 	})
 	Docs(func() {
 		Description("goa guide")

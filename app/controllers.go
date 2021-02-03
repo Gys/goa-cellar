@@ -4,16 +4,16 @@
 //
 // Command:
 // $ goagen
-// --design=github.com/goadesign/goa-cellar/design
-// --out=$(GOPATH)/src/github.com/goadesign/goa-cellar
+// --design=github.com/Gys/goa-cellar/design
+// --out=$(GOPATH)/src/github.com/Gys/goa-cellar
 // --version=v1.3.1
 
 package app
 
 import (
 	"context"
-	"github.com/goadesign/goa"
-	"github.com/goadesign/goa/cors"
+	"github.com/Gys/goa"
+	"github.com/Gys/goa/cors"
 	"net/http"
 )
 
